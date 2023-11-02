@@ -1,0 +1,219 @@
+/* INI DETAIL */
+.detail {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 1.545em;
+    font-size: 1em;
+    margin-top: 1em;
+  }
+  
+.detail-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+  }
+  
+.container-image {
+  border-radius: 20px;
+  overflow: hidden;
+  flex: 2; 
+  margin: 1em; 
+}
+
+.detail-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.detail-info {
+  flex: 2; 
+}
+
+.detail-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detail-info li {
+  padding: 0.5em 0;
+}
+
+.detail-resto-spec{
+  display: inline-block;
+  margin: 0;
+}
+
+.icon-primary {
+  color: var(--secondary-color);
+}
+
+.title-menu{
+  font-family: 'Great Vibes', cursive;
+  font-size: 50em;
+}
+
+.detail-menu {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e22bd0; 
+}
+
+.detail-food,
+.detail-drink {
+  width: 48%; 
+  text-align: center;
+  border: 1px solid var(--secondary-color); 
+}
+
+.detail-food ul,
+.detail-drink ul {
+  color: #e22bd0;
+  padding-left: 0;
+}
+
+.detail-food li,
+.detail-drink li {
+  padding: 0.5em 0;
+  display: block;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color); 
+  border-width: 0 0 1px;
+  font-size: 1.37em;
+}
+
+.detail-desc {
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 0.5em;
+  margin: 0;
+  font-style: italic;
+}
+
+.desc-resto {
+  text-align: left;
+}
+
+.category {
+  padding: 0.3em 1em;
+  color: var(--primary-color);
+  background-color: rgb(216, 9, 78);
+  margin-right: 2px;
+  border: 1px solid transparent;
+  border-radius: 0px 10px 0px 10px;
+  text-align: right;
+}
+
+.detail h3 {
+  font-size: 1.5em;
+  padding: 1em 0;
+  background-color: var(--secondary-color);
+  font-weight: bold;
+  color: var(--primary-color);
+  margin: 0;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+}
+
+.detail-menu h4 {
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em;
+  color: var(--primary-color);
+  background-color: #e22bd0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.detail-food {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+}
+
+.detail-food ul,
+.detail-drink ul {
+  color: var(--secondary-color);
+  padding-left: 0;
+}
+
+.detail-food li,
+.detail-drink li {
+  padding: 0.5em 0;
+  display: block;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  border: 0.5px solid var(--secondary-color);
+  border-width: 0 0 0.5px;
+  font-size: 1.37em;
+}
+
+.detail-drink {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 0;
+  margin: 0;
+}
+
+.detail-info h4 {
+  color: var(--secondary-color);
+  font-size: 1.5em;
+  margin: 0;
+  text-align: left;
+  padding-left: 0.5em;
+}
+
+.detail-info li {
+  position: relative;
+  display: block;
+  padding: 0.6em;
+  color: var(--secondary-color);
+  text-decoration: none;
+  background-color: var(--primary-color);
+}
+
+.resto-name,
+.resto-address,
+.resto-rating {
+  font-size: 1.5em;
+  margin: 0;
+  text-align: left;
+}
+
+.resto-category {
+  font-size: 1.5em;
+  margin-top: 2em;
+  text-align: right;
+}
+
+.category:hover,
+.detail-food li:hover,
+.detail-drink li:hover,
+.detail-review-item:hover {
+  box-shadow: 0px 10px 13px -7px #e22bd0,
+    5px 5px 15px 5px #e22bd0;
+}
+
+.category:hover {
+  box-shadow: 0px 10px 13px -7px var(--secondary-color),
+    5px 5px 15px 5px var(--secondary-color);
+}
+
+.restaurant-not-found {
+  color: red;
+  font-size: 18px;
+  margin: 50px;
+}
+

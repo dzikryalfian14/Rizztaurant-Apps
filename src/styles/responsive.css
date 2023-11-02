@@ -1,0 +1,108 @@
+@media screen and (max-width: 499px) {
+    .navbar {
+        z-index: 10;
+        position: absolute;
+        background-color: var(--secondary-color);
+        width:250px;
+        top: 70px;
+        left: 0;
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+        transition: transform 0.3s ease;
+    }
+
+    .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        background: var(--secondary-color);
+    }
+
+    .navbar_item {
+        display: list-item;
+        border-bottom: 1px solid #E0E0E0;
+        width: 100%;
+        text-align: center;
+        padding: 1.5em;
+    }
+}
+
+
+@media screen and (min-width: 500px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .card-content {
+        padding: 16px 32px;
+    }
+
+    .card-content-title {
+        font-size: 18px;
+    }
+
+    .card-content-description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #restaurant-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1em;
+        grid-row-gap: 16px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #restaurant-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .detail {
+        grid-template-rows: auto auto; 
+    }
+
+    .detail-top {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .container-image {
+        margin-right: 0; 
+        flex: 3;
+    }
+
+    .detail-img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .detail-info {
+        margin-top: 1em; 
+    }
+
+    .detail-menu {
+        flex-direction: column; 
+        border: 1px solid var(--secondary-color); 
+    }
+    
+    .detail-food,
+    .detail-drink {
+    width: 100%; 
+    border: 1px solid var(--secondary-color); 
+    }
+}
+
+

@@ -1,0 +1,48 @@
+/* INI FORM REVIEW */
+form {
+    margin: 2em 0;
+    padding: 1.5em;
+    border: 3px solid var(--secondary-color);
+    border-radius: 15px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.738em;
+    font-size: 1.37em;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 1em;
+}
+
+.form-label {
+    display: block;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    color: var(--secondary-color);
+}
+
+.containerReview {
+    margin-bottom: 1.3em;
+    margin-top: 0.5em;
+}
+
+.btn {
+    display: block;
+    width: 100px;
+    padding: 0.7em;
+    font-size: 1.37em;
+    color: var(--primary-color);
+    background-color: #e22bd0;
+    border: 2px solid #ff00b3;
+    border-radius: 1em;
+}
+
+.btn:hover {
+    box-shadow: 0px 10px 13px -7px var(--secondary-color),
+        5px 5px 15px 5px var(--secondary-color);
+}
+

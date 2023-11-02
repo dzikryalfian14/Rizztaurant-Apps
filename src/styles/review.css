@@ -1,0 +1,54 @@
+/* Review Styles */
+
+.review-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+}
+
+.detail-review {
+  font-size: 1em;
+  text-align: center;
+  max-width: 100%;
+}
+
+.detail-review-item {
+  margin-bottom: 1.5em;
+  padding: 1em 1em;
+  border-radius: 2em;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.detail-review-item:last-child {
+  margin-bottom: 0;
+}
+
+.header-review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.name-review {
+  font-weight: bold;
+  display: flex;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.date-review {
+  font-size: 1em;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.body-review {
+  padding: 1em;
+  text-align: left;
+  font-size: 1.37em;
+}
+

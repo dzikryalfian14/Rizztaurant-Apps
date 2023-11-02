@@ -1,0 +1,155 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #e60404;
+  --liner-gradient: linear-gradient(71.9deg, #354c6282 10.77%, #8633332b 92.46%);
+}
+
+/* Default Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  background: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Main Content Styles */
+.main-content {
+  width: 100%;
+  margin: 60px auto;
+  padding: 0 5%;
+  text-align: center;
+}
+
+.restaurant_label {
+  font-size: 32px;
+  font-weight: bold; 
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+}
+
+.restaurant_label::after {
+  content: '';
+  margin-top: 16px;
+  display: block;
+  border-bottom: 2px solid var(--secondary-color); 
+}
+
+#restaurant-list {
+  display: grid;
+  grid-row-gap: 1.5em;
+  padding-top: 1.5em;
+}
+
+/* Card Styles 1*/
+.card {
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+  background-color: var(--primary-color);
+  box-shadow: 0px 0px 10px rgb(173, 2, 150);
+  border-radius: 2em;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 5px 5px var(--secondary-color);
+}
+
+.card-place {
+  position: absolute;
+  top: 0; 
+  right: 00; 
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--primary-color);
+  padding: 10px 20px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+
+.card-rating {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: var(--primary-color);
+  font-size: large;
+  background-color: var(--secondary-color);
+  padding: 0.4em 1.3em;
+  z-index: 1;
+  border-radius: 0 1em 0 0;
+}
+
+.card-rating .fa {
+  font-size: medium;
+  padding: 0.3em 0.8em 0.3em 0;
+  color: rgb(255, 0, 225);
+}
+
+.card-img-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.10s ease;
+  max-height: 600px;
+}
+
+.card-image {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+  border-radius: 1em 1em 0 0;
+}
+
+.card-content {
+  padding: 1em 2em;
+  font-size: small;
+  text-align: center;
+}
+
+.card-content-title {
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold;
+  padding-bottom: 0.376em;
+}
+
+.card-content-title a {
+  font-weight: bold;
+  padding: 0.7em;
+  color: var(--secondary-color);
+  font-size: 1.37em;
+}
+
+.card-content-description {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 10px 0;
+}
+
+
+/* Skip Link Styles */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #bf1722;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}

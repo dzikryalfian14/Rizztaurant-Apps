@@ -1,0 +1,93 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background: var(--secondary-color);
+    height: 80px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+}
+
+.menu {
+    font-size: 32px;
+    margin: 10px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    border: none;
+}
+
+.fas {
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.group-logo {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none;
+    color: var(--primary-color);
+    min-width: 44px; 
+    min-height: 44px; 
+    padding: 0.7rem;
+}
+
+.group-logo .navbar_logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+.navbar_logo {
+    line-height: 24px;
+    color: var(--primary-color);
+    padding: 0.7rem;
+    margin: 0;
+}
+
+.navbar_item,
+a,
+ul {
+    text-decoration: none;
+    list-style: none;
+    color: var(--primary-color);
+}
+
+.navbar_item {
+    box-sizing: border-box;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 44px;
+    min-height: 44px;
+}
+
+.navbar_item a {
+    padding: 0.9rem;
+    font-size: 1.3em;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+}
+
+.navbar_list {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar_item a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 0.7rem;
+    font-size: 1.3em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
