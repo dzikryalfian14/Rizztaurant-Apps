@@ -7,7 +7,7 @@
   min-height: 600px; 
   width: 100%;
   text-align: center;
-  background-image: var(--liner-gradient), url("../public/images/hero-image.jpg");
+  /* background-image: var(--liner-gradient), url("../public/images/hero-image.jpg"); */
   background-position: center;
   background-size: cover; 
 }

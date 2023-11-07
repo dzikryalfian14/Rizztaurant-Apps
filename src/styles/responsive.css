@@ -26,6 +26,21 @@
     }
 }
 
+/*untuk layar seluler */
+@media only screen and (max-width: 650px) {
+    .hero {
+      background-image: var(--liner-gradient), url("../public/images/hero-image-small.jpg");
+    }
+  }
+  
+  /* untuk layar desktop */
+  @media only screen and (min-width: 651px) {
+    .hero {
+      background-image: var(--liner-gradient), url("../public/images/hero-image-large.jpg");
+    }
+  }
+  
+
 
 @media screen and (min-width: 500px) {
     .menu {
