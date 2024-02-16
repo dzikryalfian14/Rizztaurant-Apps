@@ -54,7 +54,6 @@
     "idb": "^7.1.1",
     "lazysizes": "^5.3.2",
     "regenerator-runtime": "^0.13.9",
-    "serviceworker-webpack-plugin": "^1.0.1",
     "workbox-precaching": "^7.0.0",
     "workbox-routing": "^7.0.0",
     "workbox-strategies": "^7.0.0",
